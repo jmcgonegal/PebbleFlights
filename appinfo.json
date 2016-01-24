@@ -1,0 +1,48 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "John McGonegal",
+    "longName": "Get me out of Here!",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "GetMeOut",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "05c45fc1-bee1-4148-bcd0-43ee00efa1f0",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "hiddenApp": false,
+        "watchface": false
+    }
+}
