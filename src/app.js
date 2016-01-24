@@ -2,7 +2,7 @@ var UI = require('ui');
 var ajax = require('ajax');
 
 // amadeus travel innovation sandbox api key
-var amadeusAPIKey = '***REMOVED***';
+var amadeusAPIKey = 'YOUR_API_KEY';
 
 var menuItems = [];
 var results = [];
@@ -26,7 +26,7 @@ nextDate.setDate(currentDate.getDate() + 7);
 
 function weatherToBody(cityName, card) {
   // openweathermap api key
-  var weatherAPIKey = '***REMOVED***';
+  var weatherAPIKey = 'YOUR_API_KEY';
 
   var weatherURL = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=' + weatherAPIKey;
   ajax(
